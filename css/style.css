@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Code+Pro:wght@700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+
+/* ###################################################### */
+/* universal close */
+
+/* header starts */
+
+.con {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 120px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li a {
+  display: block;
+  border-left: 1px solid rgb(91, 85, 85);
+  border-right: 1px solid rgb(91, 85, 85);
+  padding: 25px;
+}
+
+
+
+/* ###################################################### */
+/* banner section start */
+
+
+.banner1{
+    height: 90vh;
+    position: relative;
+
+}
+
+.abs{
+    color: white;
+    position: absolute;
+    bottom: 45%;
+    left: 100px;
+   
+}
+.abs h1{
+    font-size: 55px;
+    line-height: 61px;
+}
+.abs p{
+    margin-top: 20px;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+.btn{
+    background-color: #83bb0a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* ###################################################### */
+/* banner section top close */
+
+
+/* section grey start */
+.grey{
+    background-color: #f4f4f8;
+}
+.grey .con h2{
+    font-size: 43px;
+}
+.grey .con .sub{
+    padding: 10px 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    color: rgb(109, 109, 109);
+    
+}
+.grey .con .sub2{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    padding: 30px 0;
+    color: grey;
+}
+.vid img{
+    border-radius: 20px;
+}
+
+/* ######################################### */
+/* grey ends */
+
+
+
+/* counter starts */
+.counter .con{
+    padding: 40px 0px;
+    justify-content: space-between;
+    
+   
+}
+
+.box{
+    padding: 30px;
+    text-align: center;
+    border: 1px solid rgba(131, 187, 10, 1);
+    border-radius: 10px;
+    flex-grow: 1;
+}
+.gap{
+    gap: 40px;
+}
+.box i{
+    font-size: 55px;
+    color:rgba(131, 187, 10, 1);
+}
+.box h2{
+    font-size: 25px;
+}
+.box p{
+    font-size: 15px;
+    color:rgba(131, 187, 10, 1);
+}
+
+/* ######################################### */
+/* counter ends */
+
+
+
+/* Causes starts */
+.causes{
+    padding: 40px 0px;
+}
+
+.c-inner{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-bottom:40px;
+}
+.c-inner h2{
+    font-size: 40px;
+   
+}
+.c-inner p{
+    color: grey;
+   
+}
+.fbox{
+    padding: 10px 0px;
+    width: 30%;
+    
+}
+.wrap{
+    
+    flex-wrap: wrap;
+
+}
+.w-100{
+    border-radius: 6px;
+    width: 100%;
+}
+.fbox h2{
+    padding-bottom: 10px;
+}
+
+/* ######################################### */
+/* Causes ends */
+
+
+
+/* fixed starts */
+
+.fixed{
+    background: url(https://preview.colorlib.com/theme/charity2/img/background-1.jpg.webp);
+    height: 50vh;
+    background-attachment: fixed;
+}
+.quote{
+    padding: 40px 0px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.quote h2{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+
+
+/* ######################################### */
+/* fixed ends */
+
+
+
+/* Events starts */
+
+.events{
+    margin-top: 20px;
+}
+.thumb{
+   
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+.thumb-img img{
+    width: 222px;
+    border-radius: 6px;
+}
+.thumb h3{
+    padding-bottom: 15px;
+}
+.thumb .sub{
+    padding: 5px;
+}
+
+/* Events ends */
+/* ###################################### */
+
+/* fixed2 starts */
+
+.fixed2{
+    background: url(https://preview.colorlib.com/theme/charity2/img/background-2.jpg.webp);
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+.review{
+    display: flex;
+    align-items: center;
+    padding: 150px 0px;
+    justify-content: space-around;
+}
+.pbox{
+    width: 40%;
+}
+.comment{
+    background-color: white;
+    border-radius: 5px;
+}
+.test{
+    display: inline-block;
+    border-radius: 50%;
+}
+.fixed2 h3{
+    display: inline-block;
+    color: white;
+}
+.fixed2 h5{
+    margin-left: 70px;
+    display: inline-block;
+    color:#83bb0a;
+}
+
+
+/* ####################### */
+/* footer starts */
+
+footer{
+    background-color: #f4f4f8;
+}
+.f{
+    gap: 20px;
+}
+footer p{
+    padding: 15px 0px;
+}
+footer i{
+    color: #83bb0a;
+    margin-right: 5px;
+}
+.em{
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+}
+.ffbox img{
+    height: 100px;
+    width: 100px;
+   
+
+}
+.fimg{
+    width: 120px;
+}
